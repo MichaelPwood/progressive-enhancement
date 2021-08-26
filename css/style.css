@@ -1,0 +1,94 @@
+/*Général*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+* {
+    margin: 0;
+    padding:0;
+
+}
+body {
+    width: 90%;
+    margin: 0px 80px;
+    font-family: 'Open Sans', serif;
+    background-image:url(/img/pexels-henry-&-co-1793525.jpg);
+    background-position: bottom right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid;
+}
+/* float */
+#box1 {
+    border: 2px solid black;
+    float: right;
+    padding: 10px;
+}
+.align {
+    float: right;
+}
+
+/*header*/
+
+header figure {
+
+    margin: 10px 30% 10px 30%;
+    background-color: gray;
+    font-size: 1.6em;
+    padding: 5px 5px;
+}
+p { 
+    font-family: serif;
+    font-size: 1em;
+    color: #05001b;
+    letter-spacing: 1px;
+}
+
+/**/
+
+mark {
+    background: none;
+}
+q {
+    font-style: italic;
+}
+
+.good {
+    text-transform: uppercase;
+    color: green;
+}
+.bad {
+    text-transform: uppercase;
+    color: red;
+
+}
+.once {
+    margin: 5px;
+    border: 2px solid black;
+    margin: 15px 250px;
+}
+
+.village {
+    border-left-style: solid;
+    border-left-color: firebrick;
+    font-size: 1.6em;
+    display: block;
+    margin-left: 30px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+}
+.fermier {
+    border-left-style: solid;
+    border-left-color: blue;
+    display: block;
+    font-size: 1.6rem;
+    margin-left: 30px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+/*Liens*/
+
+a {
+   color: rgb(36, 12, 247); 
+}
+a:visited {color: gray;}
+a:hover, a:focus, a:active {color: red;}
