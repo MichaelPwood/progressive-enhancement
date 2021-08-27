@@ -13,11 +13,10 @@ body {
     background-position: bottom right;
     background-size: cover;
     background-repeat: no-repeat;
-    border: 2px solid;
+
 }
 /* float */
 #box1 {
-    border: 2px solid black;
     float: right;
     padding: 10px;
 }
@@ -61,7 +60,6 @@ q {
 }
 .once {
     margin: 5px;
-    border: 2px solid black;
     margin: 15px 250px;
 }
 
